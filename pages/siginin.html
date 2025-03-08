@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/signin.css">
+</head>
+<body style="height: 100vh; display: grid; grid-template-rows:auto 1fr auto ; align-items: center; background-color: var(--footer-bg);">
+    <header class="flex">
+        <div class="logo">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span style="font-weight: bold;">AWU</span>
+            <p style="letter-spacing: 0.5px;">Shopping</p>
+        </div>
+        <div class="links">
+            <a style="position: relative;" class="cart" href="/pages/cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+                $0.00
+                <span class="product-number">2</span>
+
+            </a>
+            <a class="signin" href="/pages/siginin.html">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                Sign In</a>
+            <a class="register" href="/pages/register.html">
+                <i class="fa-solid fa-user-plus"></i>
+                Register</a>
+        </div>
+
+
+    </header>
+
+
+
+   <main>
+    <form>
+     <div style="display: flex; flex-direction: column; gap:7px">
+        <label>Username:</label>
+        <input type="text"/>
+     
+        <label>Password:</label>
+        <input type="password"/>
+        
+     </div>
+        <input  type="checkbox">
+        <label class="check">Check me out</label>
+        
+    </form>
+    <div  class="flex btn" style="justify-content: center;">
+        <button class="account">Submit</button>
+    </div>
+   </main>
+
+
+
+    <footer>
+        Designed and Development by <span>Ibrahim Al-shabrawishy</span> @2025
+    </footer>
+</body>
+</html>
